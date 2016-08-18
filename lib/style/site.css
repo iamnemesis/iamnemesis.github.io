@@ -1,4 +1,14 @@
-﻿.headshot {
+﻿div {
+    color: burlywood;
+}
+
+.button-customfont {
+    left: 1000px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+.headshot {
     width: 200px;
     padding: 5px;
 }
@@ -35,7 +45,7 @@ section {
 }
 
 .topPad {
-   padding-top: 75px;
+    padding-top: 75px;
 }
 
 .bordered {
@@ -49,4 +59,16 @@ section {
 .subHeading {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    height: 30px;
+}
+
+.background {    
+    background-image: url("../backgrounds/dark-canvas.gif");
+    background-size: auto 50%;
+    background-origin: border-box;
 }
