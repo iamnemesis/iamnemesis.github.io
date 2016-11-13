@@ -9,6 +9,16 @@ div {
     color: burlywood;
 }
 
+a {
+    background: transparent;
+    text-decoration:none;
+    color:rgb(255,150,100);
+}
+
+a:hover {
+    color: white;
+}
+
 .button-customfont {
     left: 1000px;
     color: darkmagenta;
@@ -136,4 +146,16 @@ section {
 
 #navigation {
     padding-top: 60px;
+}
+
+nav  {
+    background-color:#2a2c36;;
+}
+
+nav ul {
+    list-style-type:none;
+}
+
+a.nav-active {
+    background-color: white;
 }

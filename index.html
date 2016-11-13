@@ -8,6 +8,7 @@
         Background- Dark Canvass by http://www.dinpattern.com/
         Smooth Scroll found at https://css-tricks.com/examples/SmoothPageScroll/
         Fade-in animation https://codepen.io/bluehaus/pen/EfGyi
+        Link highlighting http://callmenick.com/post/single-page-site-with-smooth-scrolling-highlighted-link-and-fixed-navigation
 
         That copyright notice is just a placeholder. All content on this website that I own can be used freely for all uses. Please note that I cannot provide any kind of warranty, so use at your own risk. For third party stuff used here (including, but not limited to JQUERY, Bootstrap, Font-Awesome) please go to their respective websites. 
     -->
@@ -48,12 +49,14 @@
 <body>
     <div id="wrapper">
         <div id="sidebar">
-            <ul class="nav" id="navigation">
-                <li><a class="welcome" href="#welcome">Hi there</a></li>
-                <li><a class="about" href="#about">About Me</a></li>
-                <li><a class="contact" href="#contact">Contact Me</a></li>
-                <li><a href="./lib/docs/Resume.pdf" target="_blank">My Resume</a></li>
-            </ul>
+            <nav>
+                <ul class="nav" id="navigation">
+                    <li><a href="#welcome">Hi there</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="./lib/docs/Resume.pdf" target="_blank">My Resume</a></li>
+                </ul>
+            </nav>
         </div>
         <div id="page-content-wrapper">
             <section id="welcome" class="background">
@@ -65,7 +68,7 @@
                     </div>
                     <div class="col-md-9 shortTopPad">
                         <p id="shortIntro">
-                            Hi there! I am a .Net pro, adept in C#, LINQ, Entity Framework and SQL. I'm interested in travel, trying to learn guitar and crazy about books. Currently I am reading <a href="https://www.goodreads.com/book/show/25791018-jules-verne-collected-novels">The Collected Novels of Jules Verne</a>.
+                            Hi there! I am a .Net pro, adept in C#, LINQ, Entity Framework and SQL. I'm interested in travel, trying to learn guitar and crazy about books. Do follow me on <a href="https://www.goodreads.com/user/show/43929399-suman-saha" target="_blank">goodreads</a>.
                         </p>
                     </div>
                 </div>
@@ -88,7 +91,7 @@
                             <p>
                                 Language INtegrated Query (or more popularly 'LINQ') has revolutionized manipulating and interactinng with data. Even though,
                                 it is a part of C#, LINQ deserves a special mention because it has relieved programmers from
-                                worrying about underlying data structures. Throw a Objects, Datasets, XML or SQL, LINQ handles
+                                worrying about underlying data structures. Throw Objects, Datasets, XML or SQL, LINQ handles
                                 ALL.
                             </p>
                         </div>
@@ -152,7 +155,7 @@
         </div>
         <div class="footer col-md-12" id="footer">
             <h5>
-                <p>&copy; Suman Saha. All Rights Reserved</p>
+                <p>&copy; Suman Saha. Released under <a href="http://choosealicense.com/licenses/mit/">MIT License</a>. May you live long and prosper</p>
             </h5>
         </div>
     </div>
