@@ -108,3 +108,43 @@ footer {
 #contact input[type="submit"] {
 	margin-top: 10px;
 }
+/* Social section */
+#social {
+  margin: 40px 0;
+}
+
+#social h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#social li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #666;
+}
+
+#social a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #666;
+}
+
+#social a:hover {
+  color: #333;
+}
+
+#social i {
+  margin-right: 10px;
+}
+
