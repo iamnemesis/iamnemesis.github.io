@@ -1,0 +1,110 @@
+/* Global Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h1, h2 {
+	margin-top: 0;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;
+	width: 100%;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: #666;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Page-Specific Styles */
+
+#about-me {
+	text-align: justify;
+}
+
+#about-me p {
+	margin-bottom: 20px;
+}
+
+#skills li, #education li {
+	margin-bottom: 10px;
+}
+
+#contact form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#contact input[type="submit"] {
+	margin-top: 10px;
+}
